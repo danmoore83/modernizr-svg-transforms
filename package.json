@@ -4,6 +4,8 @@
   "description": "Modernizr test for transform support within inline-svg",
   "main": "index.js",
   "scripts": {
+	"babel": "babel index.js --out-file index-compiled.js",
+	"babel:watch": "babel index.js --watch --out-file index-compiled.js",
 	"lint": "eslint ./",
     "test": "npm run lint"
   },
