@@ -1,0 +1,26 @@
+{
+  "name": "modernizr-svg-transforms",
+  "version": "1.0.0",
+  "description": "Modernizr test for transform support within inline-svg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wildpixeldesign/modernizr-svg-transforms.git"
+  },
+  "keywords": [
+    "modernizr",
+    "svg",
+    "inline-svg",
+    "css-transform",
+    "svg-transform"
+  ],
+  "author": "Daniel Moore <dan@wildpixeldesign.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildpixeldesign/modernizr-svg-transforms/issues"
+  },
+  "homepage": "https://github.com/wildpixeldesign/modernizr-svg-transforms"
+}
