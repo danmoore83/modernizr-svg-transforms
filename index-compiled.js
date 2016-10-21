@@ -16,15 +16,15 @@
 
 		// Append elements to dom
 		svg.appendChild(path);
-		svg.style.width = '100px';
+		svg.style.cssText = 'width: 100px; visibility: transparent;';
 		body.appendChild(svg);
 
 		// getBoundingClientRect to determine if transform applied successfully.
 		var initialBoundingRect = path.getBoundingClientRect();
-
 		path.style.cssText = styleRules;
-
 		var newBoundingRect = path.getBoundingClientRect();
+
+		body.removeChild(svg);
 
 		return initialBoundingRect.left != newBoundingRect.left;
 	});
