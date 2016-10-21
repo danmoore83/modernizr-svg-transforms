@@ -1,8 +1,6 @@
 'use strict';
 
-/* global Modernizr */
-
-module.exports = function () {
+(function (Modernizr) {
 
 	Modernizr.addTest('svg-transforms', function () {
 		var vendorPrefixesCss = ['-moz-', '-ms-', '-webkit-', ''],
@@ -30,4 +28,4 @@ module.exports = function () {
 
 		return initialBoundingRect.left != newBoundingRect.left;
 	});
-};
+})(window.Modernizr);
